@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+<title>login form</title>
+<style>
+h1{
+text-align:center;
+border:1px solid red;
+background-color:white;
+position:absolute;
+top:15%;
+left:50%;
+transform:translate(-50%,-50%);
+padding:10px;
+width:408.88px;
+border-radius:5px;
+background-color:transparent;
+
+}
+body{
+margin:0;
+padding:0;
+background-image:url(bg.jpg);
+
+}
+
+.container {
+
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+img{
+border:1px solid red;
+position:absolute;
+border-radius:50%;
+margin-left:168.44px;
+MARGIN-top:-30px;
+background-color:white;
+}
+.card{
+background-color:rgb(30,60,90);
+padding: 60px 40px 60px 40px;
+border:1px solid red;
+line-height:2.6;
+color:white;
+border-radius:12px;
+}
+.lg{
+border:none;
+background:transparent;
+border-bottom:1px solid white;
+padding:6px;
+position:absolute;
+left:73.44px;
+width:250px;
+color:white;
+}
+.lg[type=text]:focus
+{
+background:white;
+color:red;
+outline:none;
+border-bottom:5px solid red;
+}
+.lg[type=password]:focus
+{
+outline:none;
+background:white;
+color:red;
+border-bottom:5px solid red;
+}
+
+#bn{
+border:20px;
+padding:10px 20px;
+background-color:dodgerblue;
+color:white;
+border-radius:5px;
+margin-top:30px;}
+#bn:hover, a:hover{
+background-color:greenyellow;
+color:red;
+}
+a{
+border:20px;
+padding:10px 20px;
+background-color:dodgerblue;
+color:white;
+border-radius:5px;}
+}
+
+</style>
+<body>
+<div id="bt">
+<h1>LOGIN FORM </h1>
+</div>
+<div CLASS="container">
+<img src="uicon.png" alt="image not loaded" height="70" width="70">
+<div class="card">
+<form action="action_page.php">
+<input type="text" for="uname" placeholder="ENTER YOUR USERNAME HERE" class="lg">
+<br>
+<input type="password" for="pass" placeholder="ENTER YOUR PASSWORD HERE" class="lg">
+<BR/>
+
+<INPUT type="submit" value="LOGIN" id="bn">&emsp;&emsp;&emsp;
+<a href="">FORGOT PASSWORD</a><br>
+</form>
+</div>
+</div>
+</body>
+</html>
